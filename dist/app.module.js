@@ -14,7 +14,7 @@ let AppModule = class AppModule {
 };
 AppModule = __decorate([
     (0, common_1.Module)({
-        imports: [mongoose_1.MongooseModule.forRoot('mongodb+srv://Pscodium:<sua senha>@cluster0.ygy8w.mongodb.net/test'), users_module_1.UsersModule],
+        imports: [mongoose_1.MongooseModule.forRoot('mongodb+srv://Pscodium:<sua senha aqui>@cluster0.ygy8w.mongodb.net/test'), users_module_1.UsersModule],
         controllers: [],
         providers: [],
     })
